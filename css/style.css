@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+body {
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    color: white;
+}
+
+.container {
+    padding-top: 6%;
+    text-align: center;
+}
+
+.correcto {
+    color: #2ecc71;
+}
+
+.titulo {
+    font-size: 50px;
+}
+
+.subtitulo {
+    font-size: 13px;
+}
+
+.numero {
+    color: white;
+}
+
+.transparente {
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.texto {
+    background-color: black;
+    padding: 15px;
+    width: 20%;
+    border: 1px solid white;
+    color: white;
+}
+
+.binary-number {
+    font-family: "Lucida Console", Monaco, monospace;
+    height: 50px;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+    border: 3px solid #dedede;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+}
+
+.binary-number:focus {
+    border: 3px solid #2ecc71;
+}
+
+.error-message {
+    color: #cc2e3a;
+    text-align: center;
+    display: none;
+}
+
+.error-message_display_block {
+    display: block;
+}
+
+.footer {
+    padding-top: 25%;
+    text-decoration: none;
+    color: white;
+}
